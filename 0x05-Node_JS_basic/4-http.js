@@ -12,4 +12,5 @@ const app = http.createServer((req, res) => {
 // The server object listens on port 1245
 app.listen(1245);
 
-export default app;
+// Export the app object
+module.exports = app;

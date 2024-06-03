@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-// Read the content of the file
+// Read the content of the file synchronously
 function countStudents(path) {
   try {
     const data = fs.readFileSync(path, { encoding: 'utf8' });

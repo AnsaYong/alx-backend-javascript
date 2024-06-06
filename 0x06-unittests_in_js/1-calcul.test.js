@@ -37,8 +37,10 @@ describe('calculateNumber', function() {
   });
 
   describe('Invalid type', function() {
-    it('should return undefined when type is invalid', function() {
-      assert.isUndefined(calculateNumber('INVALID', 2.4, 3.6));
+    describe('Invalid type', function() {
+        it('should return undefined when type is invalid', function() {
+            assert.strictEqual(calculateNumber('INVALID', 2.4, 3.6), undefined);
+        });
     });
   });
 });

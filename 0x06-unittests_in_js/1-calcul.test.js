@@ -1,5 +1,5 @@
 const assert = require('chai').assert;
-const calculateNumber = require('./1-calcul'); // Adjust the path as necessary
+const calculateNumber = require('./1-calcul');
 
 describe('calculateNumber', function() {
   describe('SUM', function() {
